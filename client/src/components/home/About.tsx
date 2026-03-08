@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// About Section Component
 const About = () => {
   return (
     <section id="about" className="w-full bg-gradient-to-br from-white via-blue-50 to-indigo-100 py-20">
