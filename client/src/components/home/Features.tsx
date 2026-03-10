@@ -21,6 +21,7 @@ const features = [
   },
 ];
 
+// Features Component
 const Features = () => {
   return (
     <section id="features" className="w-full bg-white py-20">

@@ -22,6 +22,7 @@ const courses = [
   },
 ];
 
+// Courses Component
 const Courses = () => {
   return (
     <section id="courses" className="bg-gray-50 py-20">
