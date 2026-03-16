@@ -4,6 +4,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+// Sample testimonials data- In a real app, this would come from an API or database
 const testimonials = [
   {
     name: 'Aarav Sharma',
