@@ -1,3 +1,4 @@
+// Sample course data
 const courses = [
   {
     id: 1,
