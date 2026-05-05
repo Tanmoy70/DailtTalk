@@ -1,3 +1,4 @@
+//This component creates a visually engaging "How It Works" section for the DailyTalk homepage.
 const steps = [
   {
     icon: 'fas fa-user-plus',
