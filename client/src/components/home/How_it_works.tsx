@@ -21,6 +21,7 @@ const steps = [
   },
 ];
 
+/// How It Works Component
 const HowItWorks = () => {
   return (
     <section id="how-it-works" className="bg-white py-20">
