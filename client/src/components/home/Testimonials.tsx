@@ -36,6 +36,7 @@ const testimonials = [
   },
 ];
 
+// How It Works steps
 const Testimonials = () => {
   return (
     <section
