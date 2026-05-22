@@ -1,3 +1,4 @@
+// courses data
 const courses = [
   {
     id: 1,
