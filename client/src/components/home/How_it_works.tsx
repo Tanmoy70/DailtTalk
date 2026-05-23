@@ -1,3 +1,4 @@
+/// How It Works Component for DailyTalk
 const steps = [
   {
     icon: 'fas fa-user-plus',
