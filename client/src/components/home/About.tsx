@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// This component represents the "About" section of the homepage, providing an overview of DailyTalk's features and benefits. It includes a visually appealing image and a call-to-action button to encourage users to explore the platform further.
 const About = () => {
   return (
     <section id="about" className="w-full bg-gradient-to-br from-white via-blue-50 to-indigo-100 py-20">
