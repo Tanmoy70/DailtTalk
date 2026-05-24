@@ -3,6 +3,7 @@ import AppRoutes from './routes/AppRoutes';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 
+// App Content component to conditionally render Navbar and Footer based on the current route
 const AppContent = () => {
   const location = useLocation();
   const showLayout = location.pathname === '/';
