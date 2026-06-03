@@ -6,7 +6,6 @@ import Hero from '../components/home/Hero';
 import HowItWorks from '../components/home/How_it_works';
 import Testimonials from '../components/home/Testimonials';
 
-// Home page component that renders the main sections of the homepage
 const Home = () => {
   return (
     <>
