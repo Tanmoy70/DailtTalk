@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-// Contact section with form and contact details
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
