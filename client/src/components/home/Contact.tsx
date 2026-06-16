@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+// COmtact functional component for the contact section of the homepage
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
