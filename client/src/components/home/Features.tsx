@@ -1,4 +1,3 @@
-// Features Data
 const features = [
   {
     icon: 'fas fa-microphone-alt',
