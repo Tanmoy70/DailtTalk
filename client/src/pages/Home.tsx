@@ -6,6 +6,7 @@ import Hero from '../components/home/Hero';
 import HowItWorks from '../components/home/How_it_works';
 import Testimonials from '../components/home/Testimonials';
 
+// Pages Route for all the components in Home Page
 const Home = () => {
   return (
     <>
