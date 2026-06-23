@@ -4,6 +4,7 @@ import Calling from '../pages/Calling';
 import NotFound from '../pages/NotFound';
 // import ProtectedRoute from '../components/common/ProtectedRoute';
 
+// Pages Route for all the components in Home Page
 const AppRoutes = () => {
   return (
     <Routes>
