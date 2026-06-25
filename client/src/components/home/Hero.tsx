@@ -32,6 +32,7 @@ interface Message {
   text: string;
 }
 
+// Hero Component
 const Hero = () => {
   const navigate = useNavigate();
   const [showLogin, setShowLogin] = useState<boolean>(true);
