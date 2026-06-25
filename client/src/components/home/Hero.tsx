@@ -27,6 +27,7 @@ interface ValidationErrors {
   [key: string]: string;
 }
 
+// Message interface for displaying success or error messages
 interface Message {
   type: string;
   text: string;
