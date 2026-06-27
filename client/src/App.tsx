@@ -17,6 +17,7 @@ const AppContent = () => {
   );
 };
 
+// Main App component that wraps the AppContent with BrowserRouter
 const App = () => {
   return (
     <BrowserRouter>
