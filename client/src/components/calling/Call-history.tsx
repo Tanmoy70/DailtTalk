@@ -15,6 +15,7 @@ type CallHistory = {
   country?: string;
 };
 
+// Create a dummy call history data array to simulate real call history entries
 const dummyCallHistory: CallHistory[] = [
   {
     id: "1",
