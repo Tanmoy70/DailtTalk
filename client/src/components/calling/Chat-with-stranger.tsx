@@ -20,6 +20,7 @@ type Message = {
   time: string;
 };
 
+// Dummy data for users and messages
 const dummyUsers: UserType[] = [
   { id: "1", name: "Sophia", avatar: "/src/assets/images/testimonial1.png", isOnline: true, level: "Intermediate", country: "USA", isPremium: true, lastMessage: "Let's practice tomorrow!", unreadCount: 2 },
   { id: "2", name: "James", avatar: "/src/assets/images/testimonial2.png", isOnline: true, level: "Beginner", country: "India", isPremium: false, lastMessage: "Thanks for the tips!", unreadCount: 0 },
