@@ -28,6 +28,7 @@ const dummyUsers: UserType[] = [
   { id: "4", name: "Ryan", avatar: "/src/assets/images/testimonial1.png", isOnline: true, level: "Intermediate", country: "Canada", isPremium: false, lastMessage: "Great session today!", unreadCount: 1 },
 ];
 
+// Initial messages for the chat
 const initialMessages: Message[] = [
   { id: "1", sender: "partner", text: "Hi! How are you?", time: "3:00 PM" },
   { id: "2", sender: "me", text: "I'm good! How about you?", time: "3:01 PM" },
