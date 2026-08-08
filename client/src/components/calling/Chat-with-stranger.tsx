@@ -46,6 +46,7 @@ const getLevelColor = (level: string) => {
   }
 };
 
+// ChatWithStrangersSection component
 const ChatWithStrangersSection = () => {
   const [selectedUser, setSelectedUser] = useState<UserType | null>(null);
   const [messages, setMessages] = useState<Message[]>(initialMessages);
