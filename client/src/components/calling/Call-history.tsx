@@ -65,6 +65,7 @@ const CallHistorySection = () => {
     }
   };
 
+  // Function to get the color based on the partner's level
   const getLevelColor = (level: string) => {
     switch (level) {
       case "Beginner":
