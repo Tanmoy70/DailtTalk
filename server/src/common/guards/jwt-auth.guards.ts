@@ -4,7 +4,7 @@ import { AuthGuard } from "@nestjs/passport";
 import { Observable } from "rxjs";
 import { TokenBlacklistService } from "src/auth/token-blacklist.service";
 
-
+// This guard is used to protect routes that require JWT authentication. It extends the AuthGuard provided by Passport.js and adds additional logic to check if the token has been blacklisted (i.e., logged out).
 @Injectable()
 export class JwtAuthGuard extends AuthGuard('jwt') {
     constructor(private blacklistService: TokenBlacklistService, private moduleRef: ModuleRef) {
