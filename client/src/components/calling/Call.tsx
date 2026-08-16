@@ -8,6 +8,7 @@ import HistorySection from "./Call-history";
 import FavoritePracticePartner from "./Favorite-partner";
 import ChatWithStrangers from "./Chat-with-stranger";
 
+// Main Call component
 const Call = () => {
   const [activeTab, setActiveTab] = useState<"call" | "rooms" | "progress" | "history" | "favorites" | "chat" | "profile">("call");
   const [isMobileOpen, setIsMobileOpen] = useState(false);
