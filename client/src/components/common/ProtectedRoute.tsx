@@ -10,7 +10,6 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
   const token = localStorage.getItem('authToken');
 
   if (!token) {
-    // Redirect to home page if not authenticated
     return <Navigate to="/" replace />;
   }
 
