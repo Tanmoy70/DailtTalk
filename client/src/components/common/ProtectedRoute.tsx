@@ -1,7 +1,6 @@
 import { Navigate } from 'react-router-dom';
 import type { ReactNode } from 'react';
 
-// This component is used to protect routes that require authentication.
 interface ProtectedRouteProps {
   children: ReactNode;
 }
