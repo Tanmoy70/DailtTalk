@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Send, Video, Phone, Search, MoreVertical, Smile, Paperclip, Crown } from "lucide-react";
 
+// Define types for user and message
 type UserType = {
   id: string;
   name: string;
